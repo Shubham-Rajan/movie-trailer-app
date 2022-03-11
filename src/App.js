@@ -216,6 +216,7 @@ function App() {
         <form className="form" onSubmit={fetchMovies}>
           <input
             className="search"
+            placeholder="Search"
             type="text"
             id="search"
             onInput={(event) => setSearchKey(event.target.value)}
@@ -225,7 +226,7 @@ function App() {
             type="submit"
             onClick={() => setPlaying(false)}
           >
-            Search
+            <i className="fa fa-search"></i>
           </button>
         </form>
       </header>
