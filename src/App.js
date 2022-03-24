@@ -255,9 +255,9 @@ function App() {
                   />
                   <button
                     onClick={() => setPlaying(false)}
-                    className={"button close-video"}
+                    className={"close-video"}
                   >
-                    Close
+                    &times;
                   </button>
                 </>
               ) : (
